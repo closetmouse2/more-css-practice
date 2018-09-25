@@ -8,10 +8,11 @@ nav {
    font-family: monospace;
  }
 
- li :hover{
+ li:hover{
    border-left-style: solid;
    border-color: black;
-   border-width: 500px;
+   border-width: 2px;
+   margin-left: 80px;
  }
 
 #navhead{
