@@ -8,19 +8,12 @@ nav {
    font-family: monospace;
  }
 
-<<<<<<< HEAD
  li:hover{
    border-left-style: solid;
    border-color: black;
    border-width: 1px;
    margin-left: -45px;
-   padding-left: : -45px;
-=======
- li :hover{
-   border-left-style: solid;
-   border-color: black;
-   border-width: 500px;
->>>>>>> 12b1e4ae3b21a1ebbd6132a3fe0053d45edac564
+   padding-left: : 45px;
  }
 
 #navhead{
