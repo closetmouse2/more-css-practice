@@ -1,1 +1,32 @@
 /* Add your CSS here */
+nav {
+  float: left;
+}
+
+ li{
+   list-style: none;
+   font-family: monospace;
+ }
+
+ li :hover{
+   border-left-style: solid;
+   border-color: black;
+   border-width: 500px;
+ }
+
+#navhead{
+  color: gray;
+  font-family: monospace;
+}
+
+main {
+  margin-left: 12%;
+
+  border-left-style: solid;
+  border-color: gray;
+  border-width: 1px
+
+  padding: inherit;
+  padding-left: 25px;
+
+}
