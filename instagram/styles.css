@@ -11,8 +11,9 @@ nav {
  li:hover{
    border-left-style: solid;
    border-color: black;
-   border-width: 2px;
-   margin-left: 80px;
+   border-width: 1px;
+   margin-left: -45px;
+   padding-left: : -45px;
  }
 
 #navhead{
