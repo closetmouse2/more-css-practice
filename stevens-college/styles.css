@@ -1,1 +1,35 @@
 /* Add your CSS here */
+#title1 {
+  font-size: 125px;
+  font-family: Impact;
+  word-break: all;
+  width: 100px;
+  padding-bottom: 1px;
+  margin-left: 5%;
+
+}
+
+main img{
+  height: 800px;
+  width: 1500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -7%;
+
+}
+
+nav a {
+  color: white;
+  font-family: sans-serif;
+  text-decoration: none;
+
+  border-style: solid;
+  border-color: maroon;
+  background-color: maroon;
+
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
