@@ -1,1 +1,86 @@
 /* Add your CSS here */
+/*top links*/
+.top {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  font-family: monospace;
+}
+
+.top li:nth-of-type(1){
+  display: inline;
+  text-decoration: none;
+  color: purple;
+}
+
+.top li:nth-of-type(2){
+  display: inline;
+  text-decoration: none;
+  border-left-style: solid;
+  border-width: 1px;
+  border-color: gray;
+  padding-left: 3px;
+  transform:rotate(4deg);
+}
+
+/*opening title*/
+.opener {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  right: 23%;
+  font-size: 45px;
+}
+
+.description {
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  right: 5%;
+}
+
+.middle {
+  position: absolute;
+  top: 37%;
+  left: 40%;
+}
+
+.left_img {
+  position: absolute;
+  bottom: 30%;
+  left: 1%;
+  float left;
+}
+
+.left_heading {
+  position: absolute;
+  bottom: 46%;
+  left: 10%;
+}
+
+.left_paragraph {
+  position: absolute;
+  bottom: 25%;
+  left: 5%;
+  right: 45%;
+}
+
+.right_img {
+  position: absolute;
+  bottom: 30%;
+  right: 1%;
+  float: right;
+}
+
+.right_heading {
+  position: absolute;
+  bottom: 46%;
+  right: 10%;
+}
+
+.right_paragraph {
+  position: absolute;
+  bottom: 25%;
+  right: 5%;
+  left: 45%;
+}
