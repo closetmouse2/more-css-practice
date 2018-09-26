@@ -27,28 +27,40 @@
 .opener {
   position: absolute;
   top: 10%;
-  left: 30%;
-  right: 23%;
+  left: 20%;
+  right: 10%;
   font-size: 45px;
+  font-family: monospace;
 }
 
+/*main paragraph*/
 .description {
   position: absolute;
   top: 25%;
   left: 5%;
   right: 5%;
+  font-family: monospace;
 }
 
+/*middle links*/
 .middle {
   position: absolute;
-  top: 37%;
-  left: 40%;
+  top: 39%;
+  left: 30%;
 }
 
+.middle li {
+  display: inline;
+  text-decoration: none;
+  padding-right: 25px;
+  font-family: monospace;
+}
+
+/*bottom left*/
 .left_img {
   position: absolute;
-  bottom: 30%;
-  left: 1%;
+  bottom: 37%;
+  left: 2%;
   float left;
 }
 
@@ -56,31 +68,40 @@
   position: absolute;
   bottom: 46%;
   left: 10%;
+  font-size: 16px;
+  font-family: monospace;
 }
 
 .left_paragraph {
   position: absolute;
-  bottom: 25%;
-  left: 5%;
-  right: 45%;
+  bottom: 30%;
+  left: 9%;
+  right: 55%;
+  font-size: 10px;
+  font-family: monospace;
 }
 
+/*bottom right*/
 .right_img {
   position: absolute;
-  bottom: 30%;
-  right: 1%;
+  bottom: 37%;
+  right: 48%;
   float: right;
 }
 
 .right_heading {
   position: absolute;
   bottom: 46%;
-  right: 10%;
+  right: 25%;
+  font-size: 16px;
+  font-family: monospace;
 }
 
 .right_paragraph {
   position: absolute;
-  bottom: 25%;
+  bottom: 31%;
   right: 5%;
-  left: 45%;
+  left: 55%;
+  font-size: 10px;
+  font-family: monospace;
 }
