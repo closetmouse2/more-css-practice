@@ -1,1 +1,93 @@
 /* Add your CSS here */
+
+/*commented out until I get good
+html {
+  background-image: url(https://via.placeholder.com/500x150);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+*/
+ .banner_txt {
+   position: absolute;
+   top: 2%;
+   left: 2%;
+  }
+
+/*insert section*/
+  .where{
+    position: absolute;
+    top: 20%;
+
+  }
+
+  .check_in{
+    position: absolute;
+    top: 30%;
+  }
+
+  .guest{
+    position: absolute;
+    top: 40%;
+  }
+
+  .check_out{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+  }
+
+/*search buttom*/
+  .search_button {
+    position: absolute;
+    bottom: 50%;
+
+    border-style: solid;
+    border-color: red;
+    border-width: 1px;
+
+
+  }
+
+/*bottom heading*/
+ .bottom_heading {
+   position: absolute;
+   bottom: 35%
+ }
+
+ /*bottom links*/
+.homes {
+  position: absolute;
+  bottom: 20%;
+  left: 5%;
+}
+
+.experiences {
+  position: absolute;
+  bottom: 20%;
+  left: 25%;
+}
+
+.resteraunts {
+  position: absolute;
+  bottom: 20%;
+  left: 50%;
+}
+
+/*bottom images*/
+.bottom_img_left {
+ position: absolute;
+ bottom: 20%;
+ left: 5%;
+}
+
+.bottom_img_mid {
+ position: absolute;
+ bottom: 20%;
+ left: 25%;
+}
+
+.bottom_img_right {
+ position: absolute;
+ bottom: 20%;
+ left: 50%;
+}
